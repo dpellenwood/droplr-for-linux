@@ -6,14 +6,14 @@ Developed and tested on Ubuntu 19.10. Should work with any Ubuntu/Debian derivat
 ## Requirements
 * An existing [Droplr](https://d.pr/) account.
 * Node & NPM.
-* gnome-screenshot `which gnome-screenshot`.
-* xclip `sudo apt update && sudo apt install xclip`.
+* gnome-screenshot: `which gnome-screenshot`.
+* xclip: `sudo apt update && sudo apt install xclip`.
 
 ## Installation
 1. Clone the repo
 1. Copy `config-sample.json` to `config.json` and set your Droplr username & password.
-1. Optionally run `npm install`. The first run of `droplr.sh` (see below) will run this if `node_modules` doesn't exist.
+1. Run `npm install && npm link`.
 
 ## Usage
-* Simply run `./droplr.sh`.
-* Optionally associate a keyboard shortcut with the script.
+* Simply run `./droplr.js`.
+* Optionally associate a keyboard shortcut with the above command.

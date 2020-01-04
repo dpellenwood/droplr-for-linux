@@ -6,12 +6,8 @@
   "author": "David Paul Ellenwood <david@dpedesign.com>",
   "repository": "https://github.com/dpellenwood/droplr-for-linux",
   "license": "MIT",
-  "bin": {
-    "droplr": "./droplr.js"
-  },
   "dependencies": {
     "droplr-api": "^1.0.0",
-    "moment": "^2.24.0",
-    "yargs": "^15.1.0"
+    "moment": "^2.24.0"
   }
 }
