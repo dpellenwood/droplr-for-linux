@@ -1,4 +1,5 @@
 {
+	"tempDir": "./temp",
 	"username": "Your Droplr username",
 	"password": "Your Droplr password"
 }
