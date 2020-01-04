@@ -7,7 +7,7 @@ Developed and tested on Ubuntu 19.10. Should work with any Ubuntu/Debian derivat
 * An existing [Droplr](https://d.pr/) account.
 * Node & NPM.
 * gnome-screenshot: `which gnome-screenshot`.
-* xclip: `sudo apt update && sudo apt install xclip`.
+* xsel: `sudo apt install xsel`.
 
 ## Installation
 1. Clone the repo

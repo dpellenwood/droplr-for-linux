@@ -29,7 +29,7 @@ const client = new Droplr.Client({
 });
 
 const copyClipLink = (url) => {
-	exec(`echo ${url} | tr -d '[:space:]' | xclip -sel clip -l 2`);
+	exec(`echo ${url} | tr -d '[:space:]' | xsel -ib`);
 	exec(`notify-send "Copied ${url} to clipboard"`);
 	exec(`rm ${state.filePath}`);
 };
