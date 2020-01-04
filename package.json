@@ -4,6 +4,7 @@
   "description": "A simple Droplr client for Linux.",
   "main": "droplr.js",
   "author": "David Paul Ellenwood <david@dpedesign.com>",
+  "repository": "https://github.com/dpellenwood/droplr-for-linux",
   "license": "MIT",
   "engines": {
     "node": "12.13.1",
