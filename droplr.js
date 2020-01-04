@@ -105,8 +105,13 @@ const handleInitialState = () => {
  * @returns {Promise<void>}
  */
 const init = async () => {
-	await handleInitialState();
-	createClip();
+	try {
+		await handleInitialState();
+		createClip();
+	} catch ( error ) {
+		//console.error('error:', error);
+		exec(`notify-send -c transfer.error "Unable to create screenshot." "${error}"`);
+	}
 };
 
 init();
