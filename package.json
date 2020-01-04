@@ -1,0 +1,16 @@
+{
+  "name": "droplr-for-linux",
+  "version": "1.0.0",
+  "description": "A simple Droplr client for Linux.",
+  "main": "droplr.js",
+  "author": "David Paul Ellenwood <david@dpedesign.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "12.13.1",
+    "npm": "6.12.1"
+  },
+  "dependencies": {
+    "droplr-api": "^1.0.0",
+    "yargs": "^15.1.0"
+  }
+}
