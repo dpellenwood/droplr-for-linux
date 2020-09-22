@@ -75,14 +75,14 @@ const createClip = async () => {
 
 		if ( stderr ) {
 			//console.error('stderr:', stderr);
-			exec(`notify-send -c transfer.error "Unable to create screenshot." "${stderr}"`);
-			process.exit();
+			//exec(`notify-send -c transfer.error "Unable to create screenshot." "${stderr}"`);
+			//process.exit();
 		}
 
 	} catch ( error ) {
 		//console.error('error:', error);
-		exec(`notify-send -c transfer.error "Unable to create screenshot." "${error}"`);
-		process.exit();
+		//exec(`notify-send -c transfer.error "Unable to create screenshot." "${error}"`);
+		//process.exit();
 	}
 
 	postClip();
