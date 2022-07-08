@@ -8,6 +8,6 @@
   "license": "MIT",
   "dependencies": {
     "droplr-api": "^1.0.0",
-    "moment": "^2.27.0"
+    "moment": "^2.29.4"
   }
 }
